@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/home/knoldus/Desktop/maven/ScientificCalculator" thread-count= "2" parallel = "true">
+        <classes>
+            <class name="ScientificCalculatorTest.ScientificCalc_test">
+                <methods><include name="testAddition"/>
+                    <include name="testSubtraction"/>
+                    <include name="testMultiplication"/>
+                    <include name="testDivision"/>
+                    <include name="testSquareroot"/>
+                    <include name="testPower"/>
+                    <include name="testInvalidAddition"/>
+                    <include name="testInvalidDivision"/>
+                    <include name="testSinFunction"/>
+                    <include name="testCosFunction"/>
+                    <include name="testTanFunction"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
