@@ -3,7 +3,7 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="/home/knoldus/Desktop/maven/ScientificCalculator" thread-count= "2" parallel = "true">
         <classes>
-            <class name="ScientificCalculatorTest.ScientificCalc_test">
+            <class name="ScientificCalculatorTest.calculatorTest">
                 <methods><include name="testAddition"/>
                     <include name="testSubtraction"/>
                     <include name="testMultiplication"/>
